@@ -1,0 +1,5 @@
+/* Disable pointer events on all inner elements (span, svg, icons, etc.)*/
+.add_to_cart_button *,
+.single_add_to_cart_button * {
+    pointer-events: none;
+}
