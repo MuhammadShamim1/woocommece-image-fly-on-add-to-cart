@@ -92,6 +92,8 @@ new ms_woo_pd_image_fly({
     animationDuration: 1000,
     animationEasing:   'ease-in-out',
     enableShakeEffect: true,
+    imageStartFromAddToCartOnMobile: true, /* For mobile devices, the image animation starts from the top of the Add to Cart button. You set this option to false, so the initial image position is incorrect, and it doesn’t look good on mobile. */
+    mobileBreakpoint: 767,
 });
 </pre>
 
